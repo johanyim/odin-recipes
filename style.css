@@ -1,4 +1,47 @@
-img {
-    width: 500px;
+
+* {
+    /* border: 1px solid red; */
+    /* margin: 10px; */
+}
+
+body {
+    /* margin: 0em; */
+}
+
+.title {
+    text-align: center;
+    font-size: 4em;
+    font-family: "SE Inter","Space Grotesk",Helvetica,sans-serif;
+    margin: -8px;
+}
+
+.card {
+    width: 40em;
+    background: #fff3b2;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.subcard {
+    width: 100%;
+    background: #fff3b2;
+    margin: 10px auto;
+    border-top: 3px solid #a0986d;
+}
+
+
+header.recipe-page {
+    padding: 1em;
+    margin: -1em;
+}
+
+
+img.main-image {
+    width: 100%;
+    margin: 10px auto;
+    box-sizing: border-box;
+    border: 2px solid red;
     height: auto;
 }
+
+
