@@ -8,6 +8,55 @@ body {
     /* margin: 0em; */
 }
 
+.menu-container {
+    color: #fff;
+    background-color: #c4b45e; 
+    padding: 20px 0;
+    
+    display: flex;
+    justify-content: center;
+}
+  
+.menu {
+    width: 900px;
+
+    display: flex;
+    justify-content: space-around;
+    flex:1;
+}
+
+.logo {
+
+    /* put actual logo here later */
+    font-size: 35px;
+    justify-content: center;
+
+    display: flex; 
+    flex: 0.1 0 100px;
+}
+
+.links {
+    justify-content: flex-end;
+    flex: 1 1 auto;
+    display: flex;
+}
+
+.links > div {
+    font-size: 30px;
+
+    flex: 0  1 auto;
+    justify-content: flex-end;
+    padding: 8px;
+}
+
+.links > div > a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
 .title {
     text-align: center;
     font-size: 4em;
@@ -20,6 +69,7 @@ body {
     background: #fff3b2;
     margin: 10px auto;
     padding: 10px;
+    font-family: Inter,Helvetica,sans-serif;
 }
 
 .subcard {
@@ -28,6 +78,21 @@ body {
     margin: 10px auto;
     border-top: 3px solid #a0986d;
 }
+
+
+.ingredients {
+
+}
+
+.directions {
+    width: 35em;
+}
+
+.directions li{
+    margin: 10px 0px; 
+
+}
+
 
 
 header.recipe-page {
