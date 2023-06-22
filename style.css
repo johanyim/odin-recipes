@@ -9,6 +9,17 @@ body {
     /* margin: 0em; */
     background-color: #f8e789; 
 }
+/* 
+
+.recipe-container {
+    display: flex;
+    border: 10px solid red;
+}
+.recipe-container a {
+    border: 5px solid green;
+    flex: 1 1 auto;
+    display: flex;
+} */
 
 .menu-container {
     margin: -10px -10px -10px -10px;
